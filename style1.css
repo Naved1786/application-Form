@@ -1,0 +1,19 @@
+body {
+    background-image: url(https://images.pexels.com/photos/4894421/pexels-photo-4894421.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+.c1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    margin: 300px;
+    font-size: 40px;
+    border-radius: 30%;
+    color: white;
+}

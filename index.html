@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>welcome to my website </h1>
+    <div class="container">
+        <div class="first">
+            <span id="pi">personal Info</span>
+            <div class="form1">
+                <span> Name:<input type="text" placeholder="Enter your name here" id="name"></span>
+                <span> father Name:<input type="text" placeholder="Enter your father name" id="name1"></span>
+                <span> mother Name:<input type="text" placeholder="Enter your mother name" id="name2"></span>
+            </div>
+            <div class="form2">
+                <span>Mob No:<input type="number" placeholder="Enter your mobile number" id="num1"></span>
+                <span>Address:<input type="text" placeholder="Enter Address" id="num2"></span>
+                <span>State Name:<input type="text" placeholder="Enter State name " id="num3"></span>
+                <span>Dist:<input type="text" placeholder="district name" id="dn"></span>
+
+            </div>
+            <div class="form3">
+                <span>Pincode:<input type="number" placeholder="Enter your pin number" id="num4"></span>
+                <span>Id No:<input type="number" placeholder="Enter your Adhaar no." Id="num5"></span>
+                <span>Age :<input type="number" placeholder="Enter your current Age " Id="num6"></span>
+                <span>Date of birth:<input type="date" placeholder="date of birh" id="db"></span>
+                <span>
+                    <form>
+                        <span><b>Select your Gender:-</b></span>
+                        <label>
+                            <input type="radio" name="gender" value="male">
+                            Male
+                        </label>
+
+                        <label>
+                            <input type="radio" name="gender" value="female">
+                            Female
+                        </label>
+
+                        <label>
+                            <input type="radio" name="gender" value="other">
+                            Other
+                        </label>
+                    </form>
+                </span>
+                <form>
+                    <form>
+                        <span><b>Select your Religion:-</b></span>
+                        <label>
+                            <input type="radio" name="Religion" value="Muslim">
+                            Muslim
+                        </label>
+
+                        <label>
+                            <input type="radio" name="Religion" value="Hindu">
+                            Hindu
+                        </label>
+
+                        <label>
+                            <input type="radio" name="Religion" value="cristian">
+                            cristian
+                        </label>
+                        <label>
+                            <input type="radio" name="Religion" value="other">
+                            other
+                        </label>
+                    </form>
+                    </span>
+            </div>
+        </div>
+        <hr>
+        <div class="second">
+            <span id="Ei">Education Info</span>
+            <div class="form4">
+                <span>10th percent:<input type="percentage" placeholder="Enter your percentage in 10th "
+                        Id="num7"></span>
+                <span>12th percent:<input type="percentage" placeholder="Enter your percentage in 12th "
+                        Id="num8"></span>
+                <span>Graduation:<input type="percentage" placeholder="Enter your percent in Graduation "
+                        Id="num9"></span>
+                <!-- <span>Graduation:<input type="percentage" placeholder="Enter your percent in Graduation "Id="num9"></span> -->
+            </div>
+            <div class="form5">
+                <span>College:<input type="text" placeholder="Enter your current college name " Id="num10"></span>
+                <span>Email:<input type="email" placeholder="Enter your email Address" Id="num11"></span>
+                <span>College Id:<input type="text" placeholder="Enter your college Id" Id="num12"></span>
+                <span>year:<input type="text" placeholder="Admission Year" Id="Ay"></span>
+
+            </div>
+            <div class="form6">
+                <span id="num13">
+                    <button onclick="refreshPage()">Refresh</button>
+                    <script>
+                        function refreshPage() {
+                            location.reload();
+                        }
+                    </script>
+
+                </span>
+                <span id="num13">
+
+                    <!-- <form action="/submit_form" method="post"> -->
+                    <a href="./submit.html"><button type="submit">Submit</button></a>
+                    <!-- </form> -->
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
